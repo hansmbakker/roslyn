@@ -223,7 +223,7 @@ Provide that attribute in a `RegisterPostInitializationOutput` step. Register fo
 ```csharp
 public partial class UserClass
 {
-    [Generate]
+    [Generated]
     public partial void UserMethod();
 }
 ```
